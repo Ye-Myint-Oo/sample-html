@@ -1,0 +1,1 @@
+## Sample HTML Page to test Azure Static Hosting

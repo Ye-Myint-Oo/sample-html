@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  color: #fdc100;
+  padding-top: 6%;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.chanel-image {
+  margin: auto;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+}
+.text {
+  padding-bottom: 20px;
+  font-size: 50px;
+  line-height: 73px;
+  color: white;
+  text-align: center;
+}
+
+.description {
+  font-size: 34px;
+  line-height: 40px;
+}
+
+.content-body {
+  min-width: 400px;
+  padding: 1em;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fdc100;
+}
+
+@media (max-width: 1024px) {
+  .main-container {
+    padding-top: 1%;
+  }
+  .chanel-image {
+    padding-bottom: 10px;
+  }
+  .text {
+    font-size: 50px;
+    line-height: 61px;
+    padding-bottom: 10px;
+  }
+  .description {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
